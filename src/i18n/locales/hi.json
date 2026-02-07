@@ -1,0 +1,161 @@
+{
+    "common": {
+        "appName": "RecoverGuard AI",
+        "logout": "लॉग आउट",
+        "close": "बंद करें",
+        "save": "सहेजें",
+        "cancel": "रद्द करें",
+        "submit": "जमा करें",
+        "search": "खोजें",
+        "filter": "फ़िल्टर",
+        "export": "निर्यात",
+        "loading": "लोड हो रहा है...",
+        "noData": "कोई डेटा उपलब्ध नहीं"
+    },
+    "roles": {
+        "nurse": "नर्स",
+        "physician": "चिकित्सक",
+        "admin": "व्यवस्थापक",
+        "patient": "मरीज़"
+    },
+    "nav": {
+        "alerts": "अलर्ट",
+        "patients": "मरीज़",
+        "audit": "ऑडिट ट्रेल",
+        "settings": "सेटिंग्स",
+        "analytics": "विश्लेषण"
+    },
+    "alerts": {
+        "title": "अलर्ट इनबॉक्स",
+        "subtitle": "प्राथमिकता-क्रमित ट्राइएज कतार",
+        "noAlerts": "कोई सक्रिय अलर्ट नहीं",
+        "severity": {
+            "red": "गंभीर",
+            "yellow": "चेतावनी",
+            "green": "सामान्य"
+        },
+        "status": {
+            "open": "खुला",
+            "reviewed": "समीक्षित",
+            "resolved": "हल किया गया",
+            "escalated": "आगे बढ़ाया गया"
+        },
+        "confidence": "विश्वास",
+        "repeatCount": "{{count}} बार दोहराया गया",
+        "daysPostDischarge": "डिस्चार्ज के {{days}} दिन बाद",
+        "actions": {
+            "call": "कॉल करें",
+            "message": "संदेश भेजें",
+            "escalate": "आगे बढ़ाएं",
+            "dismiss": "खारिज करें"
+        },
+        "metrics": {
+            "pain": "दर्द",
+            "steps": "कदम",
+            "temperature": "तापमान",
+            "baseline": "बेसलाइन",
+            "expected": "अपेक्षित"
+        }
+    },
+    "patient": {
+        "narrative": {
+            "title": "मरीज़ विवरण",
+            "snapshot": "स्नैपशॉट",
+            "whatChanged": "क्या बदला",
+            "why": "क्यों",
+            "whatToDo": "क्या करना है"
+        },
+        "status": {
+            "onTrack": "सही रास्ते पर",
+            "deviated": "विचलित",
+            "critical": "गंभीर"
+        },
+        "riskTier": "जोखिम स्तर {{tier}}",
+        "lastAction": "अंतिम कार्रवाई",
+        "consent": {
+            "title": "सहमति स्थिति",
+            "voice": "आवाज़ रिकॉर्डिंग",
+            "photo": "फोटो अपलोड",
+            "granted": "दी गई",
+            "notGranted": "नहीं दी गई",
+            "revoke": "रद्द करें"
+        },
+        "timeline": {
+            "title": "रिकवरी टाइमलाइन",
+            "delta": "बेसलाइन से बदलाव",
+            "zScore": "Z-स्कोर"
+        },
+        "causes": {
+            "title": "मुख्य कारक",
+            "contribution": "योगदान",
+            "evidence": "प्रमाण"
+        },
+        "playbook": {
+            "title": "कार्य योजना",
+            "script": "ट्राइएज स्क्रिप्ट",
+            "sms": "SMS भेजें",
+            "callPatient": "मरीज़ को कॉल करें"
+        }
+    },
+    "triage": {
+        "title": "नर्स ट्राइएज",
+        "script": {
+            "title": "मूल्यांकन प्रश्न",
+            "q1": "क्या आपने कोई बुखार या ठंड लगना देखा है?",
+            "q2": "क्या सर्जिकल साइट के आसपास कोई लालिमा या सूजन है?",
+            "q3": "क्या आप अपने पैर पर वजन डाल पा रहे हैं?",
+            "q4": "क्या आप निर्धारित अनुसार दवाइयाँ ले रहे हैं?",
+            "q5": "1-10 के पैमाने पर, अभी आपका दर्द कितना है?"
+        },
+        "notes": "मूल्यांकन नोट्स",
+        "notesPlaceholder": "अपने निष्कर्ष लिखें...",
+        "selectAction": "कार्रवाई चुनें",
+        "actionOptions": {
+            "call": "मरीज़ को कॉल करें",
+            "callDesc": "सीधी फोन परामर्श",
+            "prescription": "रिमोट प्रिस्क्रिप्शन",
+            "prescriptionDesc": "फार्मेसी को दवा भेजें",
+            "schedule": "विज़िट शेड्यूल करें",
+            "scheduleDesc": "क्लिनिक अपॉइंटमेंट बुक करें",
+            "escalate": "चिकित्सक को भेजें",
+            "escalateDesc": "तत्काल चिकित्सा समीक्षा",
+            "dismiss": "झूठा अलार्म",
+            "dismissDesc": "समीक्षित के रूप में चिह्नित, कोई कार्रवाई नहीं"
+        }
+    },
+    "sms": {
+        "alertTemplate": "Namaste {{name}}, hospital se {{hospital}}. Aapki halat mein badlav dekha gaya hai. Nurse call karegi. Bukhar ya ghaav se ras aa raha ho to YES bhejein.",
+        "medicationReminder": "{{name}} ji, aapki dawa {{medication}} lene ka samay ho gaya hai. Liya to 1 bhejein, nahi to 2.",
+        "checkInReminder": "{{name}} ji, RecoverGuard par aaj ki health check-in ka samay hai. Yahan dabayein: {{link}}"
+    },
+    "audit": {
+        "title": "ऑडिट ट्रेल",
+        "subtitle": "पूर्ण कार्रवाई इतिहास",
+        "timestamp": "समय",
+        "user": "उपयोगकर्ता",
+        "action": "कार्रवाई",
+        "note": "नोट",
+        "exportCsv": "CSV निर्यात करें"
+    },
+    "settings": {
+        "title": "सिस्टम सेटिंग्स",
+        "thresholds": "अलर्ट थ्रेशोल्ड",
+        "notifications": "सूचनाएं",
+        "users": "उपयोगकर्ता प्रबंधन",
+        "dataResidency": "डेटा रेसिडेंसी",
+        "residencyOptions": {
+            "india": "भारत (मुंबई)",
+            "eu": "यूरोपीय संघ (फ्रैंकफर्ट)",
+            "us": "संयुक्त राज्य अमेरिका (वर्जीनिया)"
+        }
+    },
+    "accessibility": {
+        "alertCard": "मरीज़ {{name}} के लिए अलर्ट कार्ड, गंभीरता {{severity}}",
+        "callButton": "मरीज़ {{name}} को कॉल करें",
+        "messageButton": "मरीज़ {{name}} को संदेश भेजें",
+        "escalateButton": "अलर्ट को चिकित्सक को भेजें",
+        "dismissButton": "अलर्ट खारिज करें",
+        "recoveryChart": "दर्द और गतिविधि रुझान दिखाने वाला रिकवरी चार्ट",
+        "closeModal": "डायलॉग बंद करें"
+    }
+}

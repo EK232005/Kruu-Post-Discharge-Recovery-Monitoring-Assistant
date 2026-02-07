@@ -1,0 +1,161 @@
+{
+    "common": {
+        "appName": "RecoverGuard AI",
+        "logout": "Sign Out",
+        "close": "Close",
+        "save": "Save",
+        "cancel": "Cancel",
+        "submit": "Submit",
+        "search": "Search",
+        "filter": "Filter",
+        "export": "Export",
+        "loading": "Loading...",
+        "noData": "No data available"
+    },
+    "roles": {
+        "nurse": "Nurse",
+        "physician": "Physician",
+        "admin": "Admin",
+        "patient": "Patient"
+    },
+    "nav": {
+        "alerts": "Alerts",
+        "patients": "Patients",
+        "audit": "Audit Trail",
+        "settings": "Settings",
+        "analytics": "Analytics"
+    },
+    "alerts": {
+        "title": "Alert Inbox",
+        "subtitle": "Priority-sorted triage queue",
+        "noAlerts": "No active alerts",
+        "severity": {
+            "red": "Critical",
+            "yellow": "Warning",
+            "green": "Normal"
+        },
+        "status": {
+            "open": "Open",
+            "reviewed": "Reviewed",
+            "resolved": "Resolved",
+            "escalated": "Escalated"
+        },
+        "confidence": "Confidence",
+        "repeatCount": "Repeated {{count}} times",
+        "daysPostDischarge": "Day {{days}} post-discharge",
+        "actions": {
+            "call": "Call",
+            "message": "Message",
+            "escalate": "Escalate",
+            "dismiss": "Dismiss"
+        },
+        "metrics": {
+            "pain": "Pain",
+            "steps": "Steps",
+            "temperature": "Temperature",
+            "baseline": "baseline",
+            "expected": "expected"
+        }
+    },
+    "patient": {
+        "narrative": {
+            "title": "Patient Narrative",
+            "snapshot": "Snapshot",
+            "whatChanged": "What Changed",
+            "why": "Why",
+            "whatToDo": "What To Do"
+        },
+        "status": {
+            "onTrack": "On Track",
+            "deviated": "Deviated",
+            "critical": "Critical"
+        },
+        "riskTier": "Risk Tier {{tier}}",
+        "lastAction": "Last Action",
+        "consent": {
+            "title": "Consent Status",
+            "voice": "Voice Recording",
+            "photo": "Photo Upload",
+            "granted": "Granted",
+            "notGranted": "Not Granted",
+            "revoke": "Revoke"
+        },
+        "timeline": {
+            "title": "Recovery Timeline",
+            "delta": "Change from baseline",
+            "zScore": "Z-score"
+        },
+        "causes": {
+            "title": "Top Contributing Factors",
+            "contribution": "Contribution",
+            "evidence": "Evidence"
+        },
+        "playbook": {
+            "title": "Action Playbook",
+            "script": "Triage Script",
+            "sms": "Send SMS",
+            "callPatient": "Call Patient"
+        }
+    },
+    "triage": {
+        "title": "Nurse Triage",
+        "script": {
+            "title": "Assessment Questions",
+            "q1": "Have you noticed any fever or chills?",
+            "q2": "Is there any redness or swelling around the surgical site?",
+            "q3": "Are you able to bear weight on your leg?",
+            "q4": "Have you been taking your medications as prescribed?",
+            "q5": "On a scale of 1-10, how would you rate your pain right now?"
+        },
+        "notes": "Assessment Notes",
+        "notesPlaceholder": "Document your findings...",
+        "selectAction": "Select Action",
+        "actionOptions": {
+            "call": "Call Patient",
+            "callDesc": "Direct phone consultation",
+            "prescription": "Remote Prescription",
+            "prescriptionDesc": "Send medication to pharmacy",
+            "schedule": "Schedule Visit",
+            "scheduleDesc": "Book clinic appointment",
+            "escalate": "Escalate to Physician",
+            "escalateDesc": "Urgent medical review",
+            "dismiss": "False Alarm",
+            "dismissDesc": "Mark as reviewed, no action needed"
+        }
+    },
+    "sms": {
+        "alertTemplate": "Hi {{name}}, this is {{hospital}}. We noticed some changes in your recovery. A nurse will call you now. If you have fever or wound discharge, please reply YES.",
+        "medicationReminder": "Hi {{name}}, remember to take your {{medication}}. Reply 1 if taken, 2 if not.",
+        "checkInReminder": "Hi {{name}}! Time for your daily health check-in on RecoverGuard. Tap here: {{link}}"
+    },
+    "audit": {
+        "title": "Audit Trail",
+        "subtitle": "Complete action history",
+        "timestamp": "Timestamp",
+        "user": "User",
+        "action": "Action",
+        "note": "Note",
+        "exportCsv": "Export CSV"
+    },
+    "settings": {
+        "title": "System Settings",
+        "thresholds": "Alert Thresholds",
+        "notifications": "Notifications",
+        "users": "User Management",
+        "dataResidency": "Data Residency",
+        "residencyOptions": {
+            "india": "India (Mumbai)",
+            "eu": "European Union (Frankfurt)",
+            "us": "United States (Virginia)"
+        }
+    },
+    "accessibility": {
+        "alertCard": "Alert card for patient {{name}}, severity {{severity}}",
+        "callButton": "Call patient {{name}}",
+        "messageButton": "Send message to patient {{name}}",
+        "escalateButton": "Escalate alert to physician",
+        "dismissButton": "Dismiss alert",
+        "recoveryChart": "Recovery chart showing pain and activity trends",
+        "closeModal": "Close dialog"
+    }
+}
